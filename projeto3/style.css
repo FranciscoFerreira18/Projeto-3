@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+}
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+.group {
+  width: 550px;
+  font-size: 20px;
+}
+.item {
+  margin: 3%;
+  color: white;
+
+}
+
+.item:hover {
+  cursor: pointer;
+  color: white;
+}
+.imagem_central {
+  justify-content: center;
+}
+.content_pagina1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem_central{
+    padding-top: 7%;
+    
+}
+
+.Quem_somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1272px;
+}
+
+.texto_colunas{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+p{
+    margin: 3%;
+}
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+.div_contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+.pagina2{
+  background-color: white;
+  height: 100%;
+}
+.menu{
+  background-color: grey;
+  height: 800px;
+  width: 90%;
+  border-radius: 2%;
+  margin: 5%;
+
+}
+.caixa_central{
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.Pizzas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cima{
+  height: 300px;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.FeedBack{
+  width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    border-radius: 5%;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    align-items: center;
+
+}
+.imagem_comentario{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-items: center;
+    width: 70%;
+}
+
+#imagemperfil{
+  border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 64px;
+    width: 64px;
+    z-index: 0;
+}
+
+.conteudofeed{
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+.box{
+  width: 320px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+}
+
+.imagem_pizza{
+  height: 180px;
+  width: 180px;
+}
+.imagem_pizza:hover{
+  height: 200px;
+  width: 200px;
+}
+
+.titulo{
+  display: flex;
+  color: red;
+  justify-content: center;
+}
+* {    
+  box-sizing: border-box;    
+}    
+    
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+    
+label {    
+  padding: 12px 12px 12px 0;    
+  display: inline-block;    
+}    
+    
+input[type=submit] {    
+  background-color: rgb(37, 116, 161);    
+  color: white;    
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 4px;    
+  cursor: pointer;    
+  float: right;    
+}    
+    
+input[type=submit]:hover {    
+  background-color: #45a049;    
+}    
+    
+.container {    
+  border-radius: 5px;    
+  background-color: #f2f2f2;    
+  padding: 20px;    
+}    
+    
+.col-25 {    
+  float: left;    
+  width: 25%;    
+  margin-top: 6px;    
+}    
+    
+.col-75 {    
+  float: left;    
+  width: 75%;    
+  margin-top: 6px;    
+}    
+    
+  
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;    
+} 
+
+.pizzas_acompanhamentos{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 3%;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.imagens_acompanhamentos{
+  width: 350px;
+  height: 350px;
+}
+.pagina_acompanhamentos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3%
+}
+.well{
+  text-align: center;
+  min-height: 20px;
+    width: 100%;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+  
+  
+}
+.carrinho{
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.menucarrinho{
+  padding: 3%;
+  width: 50%;
+  height: 500px;
+  border: black;
+  background-color: blanchedalmond;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}

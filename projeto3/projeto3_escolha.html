@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pagina4">
+        <nav class="menu-bar">
+            <img class="logo" src="logo.png" width="180px" height="150px">
+            <div class="group">
+              <a class="item" href="projeto3.html">Inicio</a>
+              <a class="item" href="projeto3_menus.html">Menu</a>
+              <a class="item" href="projeto3_feedback.html">FeedBack</a>
+              <a id="carrinho"  href="projeto3_carrinho.html"><img  src="cart.png" style="width: 40px; height: 40px;"></a>
+            </div>
+          </nav>
+          <div class="pagina_acompanhamentos">
+          <div class="pizzas_acompanhamentos">
+          <h1 class="titulo">La Camarão</h1>
+          <img class="imagens_acompanhamentos" src="pizza1.png" alt="">
+          <div class="texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ex in excepturi unde libero quae odit quis, eligendi quos debitis perspiciatis repudiandae? Fuga molestiae soluta alias quo explicabo quae modi!</p>
+          </div>
+        </div>
+       
+          <div class="row">
+            <div id="pizza-builder" class="col-md-4 well">
+              <h3>Pizza Builder</h3>
+              <hr>
+              <form id="new-pizza">
+                <div class="form-group">
+                  <h5>Escolha o tamanho
+                    <span id="sizes" class="pull-right clickable underline text-warning glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+                  </h5>
+                  <div class="sizes">
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="size-options" id="extra-small" value="extra-small">
+                        Mini Pizza
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="size-options" id="small" value="small">
+                        Pequena
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="size-options" id="medium" value="medium" checked>
+                        Média
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="size-options" id="large" value="large">
+                        Grande
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="size-options" id="extra-large" value="extra-large">
+                        Familiar
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                  <h5>Escolha a Preferência do Queijo
+                    <span id="cheese" class="pull-right clickable underline text-warning glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+                  </h5>
+                  <div class="cheese">
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="cheese-options" id="none" value="none">
+                        Sem Queijo
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="cheese-options" id="regular" value="regular" checked>
+                        Queijo Normal
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="cheese-options" id="extra" value="extra">
+                        Extra Queijo
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                  <h5>Escolha os ingridientes Extra
+                    <span id="toppings" class="pull-right clickable underline text-warning glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+                  </h5>
+                  <br>
+                  <div class="toppings">
+                    <h6>Carnes</h6>
+                    <div>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="pepperoni" value="2"> Pepperoni
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="salami" value="1.5"> Salame
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="bacon" value="1"> Bacon
+                      </label>
+                    </div>
+                    <div>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="chicken" value="1.75"> Frango
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="beef" value="2.5"> Bife
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="ham" value="1"> Fiambre
+                      </label>
+                    </div>
+                    <hr>
+                    <h6>Vegetais</h6>
+                    <div>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="olives" value="1.25"> Azeitonas
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="peppers" value=".5"> Pimenta
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="mushrooms" value="1.5"> Cogumelos
+                      </label>
+                    </div>
+                    <div>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="onions" value=".25"> Cebola
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="pineapple" value="1"> Ananás
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" class="topping" id="spinach" value="1.5"> Espinafres
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <h5>Preço
+                  <span id="pizza-cost" class="pull-right clickable underline text-warning glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+                </h5>
+                <div class="pizza-cost">
+                  <p id="pizza-price" class="text-success">12.99€</p>
+                </div>
+                <hr>
+                <button type="submit" class="btn btn-success btn-sm">Adiconar a Pizza ao Carrinho</button>
+              </form>
+            </div>
+            
+          </div>
+      </div>
+      </div>
+    
+</body>
+</html>
